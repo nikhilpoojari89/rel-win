@@ -1,77 +1,8 @@
 <?php $title = "RNL Wealth and INsurance Plan"; ?>
 <?php include 'header.php' ?>
 
-<!--********************** Main Heading Banner Section ***********************-->
-<section class="custom-top-padding mb-0 pb-5 pb-lg-0 top-banner-bg">
-    <div class="container-fluid px-0">
-        <div class="row justify-content-between mx-3">
-            <div class="col-lg-7 col-xl-6 left-section">
-                <div class="form-card py-5">
-                    <h1 class="text-primary main-title vag-r-bold font-weight-bold mb-0 letter-spacing-1 font-64">Reliance Nippon <br class="d-none d-lg-block"/> Life Super Suraksha</h1>
-                    <span class="text-primary main-sub-title vag-r-thin font-12 letter-spacing-05 font-smooth">A Non-Linked, Non-Participating, Individual, Pure Risk Premium/Savings, Life Insurance Plan</span>
-                    <div class="text-center mt-4">
-                        <img src="./public/images/png/shield.png" class="img-fluid" alt="Shield" width="250" title="Shield" />
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 col-xl-6 right-section align-self-center">
-                <div class="form-card p-4">
-                    
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-sm-6">
-                                <label class="vag-r-bold text-primary font-20" for="inputName">Name</label>
-                                <input type="text" class="form-control" id="inputName">
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <label class="vag-r-bold text-primary font-20" for="inputMobile">Mobile Number</label>
-                                <input type="text" class="form-control" id="inputMobile">
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <label class="vag-r-bold text-primary font-20" for="inputGender">Gender</label>
-                                <select id="inputGender" class="form-control">
-                                    <option selected>Please Select</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <label class="vag-r-bold text-primary font-20" for="inputState">State</label>
-                                <select id="inputState" class="form-control">
-                                    <option selected>Please Select</option>
-                                    <option>Maharashtra</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <label class="vag-r-bold text-primary font-20" for="inputEmail">Email</label>
-                                <input type="email" class="form-control" id="inputEmail">
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <label class="vag-r-bold text-primary font-20" for="inputCity">City</label>
-                                <input type="text" class="form-control" id="inputCity">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="chkContactDetails">
-                                <label class="custom-control-label line-height-1 font-min" for="chkContactDetails">By submitting my contact details here, I override my NDNC registration and authorize Reliance Nippon Life Insurance Company and its representative to contact me through sms/ call/ e-mail.</label>
-                            </div>
-                        </div>
-                        <div class="form-group text-center mb-0">
-                            <button type="submit" class="btn btn-primary vag-r-bold letter-spacing-05 font-18 px-1 py-0 font-16 font-weight-bold">Submit</button>
-                        </div>
-                    </form>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <!--********************** Tabs Section ***********************-->
-<section class="pt-4 bg-white">
+<section class="bg-white custom-top-padding mb-0 pb-5 pb-lg-0">
     <div class="container-fluid">
         <div class="row justify-content-start">
 
@@ -84,21 +15,15 @@
 
                                 <div class="custom-nav-tabs-wrapper">
         
-                                    <ul class="nav nav-pills list mb-0 custom-nav-tabs py-2 justify-content-between" id="more_info_tabs" role="tablist">
-                                        <li class="nav-item mr-2" role="presentation">
-                                            <a class="nav-link active rounded-pill line-height-12 text-center" id="pills-income-benefit-tab" data-toggle="pill" href="#pills-income-benefit" role="tab" aria-controls="pills-income-benefit" aria-selected="true">Income Benefit<br/> Variant</a>
+                                    <ul class="nav nav-pills list mb-0 custom-nav-tabs py-2 justify-content-center" id="more_info_tabs" role="tablist">
+                                        <li class="nav-item mr-5" role="presentation">
+                                            <a class="nav-link active rounded-pill line-height-12 text-center" id="pills-step1-tab" data-toggle="pill" href="#pills-step1" role="tab" aria-controls="pills-step1" aria-selected="true">Step 1</a>
                                         </li>
-                                        <li class="nav-item mr-2" role="presentation">
-                                            <a class="nav-link rounded-pill line-height-12 text-center" id="pills-early-return-tab" data-toggle="pill" href="#pills-early-return" role="tab" aria-controls="pills-early-return" aria-selected="false">Early Return of<br/> Premium Variant</a>
+                                        <li class="nav-item mx-5" role="presentation">
+                                            <a class="nav-link rounded-pill line-height-12 text-center" id="pills-step2-tab" data-toggle="pill" href="#pills-step2" role="tab" aria-controls="pills-step2" aria-selected="false">Step 2</a>
                                         </li>
-                                        <li class="nav-item mr-2" role="presentation">
-                                            <a class="nav-link rounded-pill line-height-12 text-center" id="pills-return-tab" data-toggle="pill" href="#pills-return" role="tab" aria-controls="pills-return" aria-selected="false">Return of<br/> Premium Variant</a>
-                                        </li>
-                                        <li class="nav-item mr-2" role="presentation">
-                                            <a class="nav-link rounded-pill line-height-12 text-center" id="pills-life-health-tab" data-toggle="pill" href="#pills-life-health" role="tab" aria-controls="pills-life-health" aria-selected="false">Life & Health<br/> Variant</a>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <a class="nav-link rounded-pill line-height-12 text-center" id="pills-life-plus-tab" data-toggle="pill" href="#pills-life-plus" role="tab" aria-controls="pills-life-plus" aria-selected="false">Life Plus<br/> Variant</a>
+                                        <li class="nav-item ml-5" role="presentation">
+                                            <a class="nav-link rounded-pill line-height-12 text-center" id="pills-step3-tab" data-toggle="pill" href="#pills-step3" role="tab" aria-controls="pills-step3" aria-selected="false">Step 3</a>
                                         </li>
                                     </ul>
         
@@ -106,58 +31,175 @@
         
                             </div>
                         </div>
-                        <div class="tab-content mt-4" id="pills-tabContent">
+                        <div class="tab-content" id="pills-tabContent">
         
-                            <div class="tab-pane fade show active" id="pills-income-benefit" role="tabpanel" aria-labelledby="pills-income-benefit-tab">
+                            <div class="tab-pane fade show active" id="pills-step1" role="tabpanel" aria-labelledby="pills-step1-tab">
                                 <div class="row">
                                     <div class="col-12 px-0">
-                                        <!-- Income Benefit Variant Tab -->
-                                        <div class="bg-white mt-2">
-                                            <img src="./public/images/png/variant/income-benefit-variant.png" class="img-fluid" alt="Income Benefit Variant">
+                                        <!-- Step1 Tab -->
+                                        <div class="bg-white mt-2 pt-5">
+
+                                            <section class="">
+                                                <div class="container-fluid px-0">
+                                                    <div class="row justify-content-between mx-3">
+                                                        <div class="col-xl-7 left-section align-self-center">
+                                                            <div class="form-card position-relative">
+                                                                <h1 class="text-black text-center font-weight-bold mb-3">RNL Wealth and INsurance Plan (WIN)</h1>
+                                                                <p class="text-black text-center font-weight-bold font-20 font-smooth">A Unit Linked, Non Participating, Individual Life Insurance Plan</p>
+
+                                                                <div class="row justify-content-center">
+                                                                    <div class="col-lg-9">
+                                                                        <ul class="custom-tab-list text-black font-20 letter-spacing-1 mt-5">
+                                                                            <li>Choose to pay your premium periodically for a limited period</li>
+                                                                            <li>The plan offers you coverage up to the age of 100</li>
+                                                                            <li>You can select any or all of the fund options offered under this plan</li>
+                                                                            <li>You have the choice of systematic investment through the portfolio strategy - Enhanced SMART</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+
+
+                                                                <div class="position-absolute right-0 bottom-0">
+                                                                    <img src="./public/images/png/user-img.png" class="img-fluid" alt="User Image" width="120" title="User Image" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-5 right-section">
+                                                            <div class="form-card p-4">
+
+                                                                <ul class="nav nav-pills list mb-0 custom-nav-tabs py-2 justify-content-between d-none" id="more_info_tabs" role="tablist">
+                                                                    <li class="nav-item mr-2" role="presentation">
+                                                                        <a class="nav-link active rounded-pill font-serif font-weight-bold" id="pills-professional-details-tab" data-toggle="pill" href="#pills-professional-details" role="tab" aria-controls="pills-professional-details" aria-selected="true">Branch Details</a>
+                                                                    </li>
+                                                                    <li class="nav-item mr-2" role="presentation">
+                                                                        <a class="nav-link rounded-pill font-serif font-weight-bold" id="pills-personal-details-tab" data-toggle="pill" href="#pills-personal-details" role="tab" aria-controls="pills-personal-details" aria-selected="false">Personal Details</a>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="tab-content mt-4" id="pills-tabContent">
+                                                
+                                                                    <div class="tab-pane fade show active" id="pills-professional-details" role="tabpanel" aria-labelledby="pills-professional-details-tab">
+                                                
+                                                                        <form>
+                                                                            <div class="text-center text-black mb-5">
+                                                                                <h2 class="font-weight-bold">Buy Online</h2>
+                                                                                <p class="font-24">Please share your details to view quotes</p>
+                                                                            </div>
+                                                                            <div class="form-row">
+                                                                                <div class="form-group col-12">
+                                                                                    <input type="text" class="form-control" placeholder="Name" id="inputName">
+                                                                                </div>
+                                                                                <div class="col-12">
+                                                                                    <div class="row justify-content-between">
+                                                                                        <div class="form-group col-sm-5 pr-0">
+                                                                                            <input type="text" class="form-control" placeholder="DOB" id="inputDob">
+                                                                                        </div>
+                                                                                        <div class="form-group col-sm-5 pl-0">
+                                                                                            <select id="inputGender" class="form-control">
+                                                                                                <option selected>Gender</option>
+                                                                                                <option>Male</option>
+                                                                                                <option>Female</option>
+                                                                                                <option>Other</option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12">
+                                                                                    <div class="row justify-content-between">
+                                                                                        <div class="form-group col-sm-5 pr-0">
+                                                                                            <select id="inputsmoking" class="form-control">
+                                                                                                <option selected>Smoker/Non-Smoker</option>
+                                                                                                <option>Smoker</option>
+                                                                                                <option>Non-Smoker</option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                        <div class="form-group col-sm-5 pl-0">
+                                                                                            <select id="inputself" class="form-control">
+                                                                                                <option selected>Self/Others</option>
+                                                                                                <option>Self</option>
+                                                                                                <option>Others</option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="form-group col-12">
+                                                                                    <input type="text" class="form-control" placeholder="Contact No." id="inputContact">
+                                                                                </div>
+                                                                                <div class="form-group col-12">
+                                                                                    <input type="email" class="form-control" placeholder="Email ID" id="inputEmail">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group text-center mt-3 mb-0">
+                                                                                <a href="javascript:void(0);" type="submit" id="step_1" class="btn btn-primary letter-spacing-05 font-18 font-16 font-weight-bold">Get Quotes</a>
+                                                                            </div>
+                                                                        </form>
+                                                
+                                                                    </div>
+                                                
+                                                                    <div class="tab-pane fade" id="pills-personal-details" role="tabpanel" aria-labelledby="pills-personal-details-tab">
+
+                                                                        <form class="professional-details">
+                                                                            <div class="text-center text-black mb-5">
+                                                                                <h2 class="font-weight-bold">Almost There</h2>
+                                                                                <p class="font-24">Please share your details to view quotes</p>
+                                                                            </div>
+                                                                            <div class="form-row">
+                                                                                <div class="form-group col-12">
+                                                                                    <input type="text" class="form-control" placeholder="Annual Income" id="inputIncome">
+                                                                                </div>
+                                                                                <div class="form-group col-12">
+                                                                                    <select id="inputEdQualification" class="form-control">
+                                                                                        <option selected>Educational Qualification</option>
+                                                                                        <option>SSC</option>
+                                                                                        <option>HSC</option>
+                                                                                        <option>Graduate</option>
+                                                                                        <option>Post-Graduate</option>
+                                                                                        <option>PHD</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                                <div class="form-group col-12">
+                                                                                    <input type="email" class="form-control" placeholder="Occupation" id="inputOccupation">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group text-center mt-3 mb-0 d-flex justify-content-between">
+                                                                                <a href="javascript:void(0);" type="submit" id="step_prev_1" class="btn btn-secondary letter-spacing-05 font-18 font-16 font-weight-bold">Back</a>
+                                                                                <button type="submit" class="btn btn-primary letter-spacing-05 font-18 font-16 font-weight-bold">Get Quotes</button>
+                                                                            </div>
+                                                                        </form>
+
+                                                                    </div>
+
+                                                                </div>
+
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            
                                         </div>
                                     </div>
                                 </div>
                             </div>
         
-                            <div class="tab-pane fade" id="pills-early-return" role="tabpanel" aria-labelledby="pills-early-return-tab">
+                            <div class="tab-pane fade" id="pills-step2" role="tabpanel" aria-labelledby="pills-step2-tab">
                                 <div class="row">
                                     <div class="col-12 px-0">
-                                        <!-- Early Return of Premium Variant Tab -->
+                                        <!-- Step2 Tab -->
                                         <div class="bg-white mt-2">
-                                            <img src="./public/images/png/variant/early-return-variant.png" class="img-fluid" alt="Early Return of Premium Variant">
+                                            <img src="./public/images/png/variant/early-return-variant.png" class="img-fluid" alt="Step2">
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade" id="pills-return" role="tabpanel" aria-labelledby="pills-return-tab">
+                            <div class="tab-pane fade" id="pills-step3" role="tabpanel" aria-labelledby="pills-step3-tab">
                                 <div class="row">
                                     <div class="col-12 px-0">
-                                        <!-- Return of Premium Variant Tab -->
+                                        <!-- Step3 Tab -->
                                         <div class="bg-white mt-2">
-                                            <img src="./public/images/png/variant/return-variant.png" class="img-fluid" alt="Return of Premium Variant">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="pills-life-health" role="tabpanel" aria-labelledby="pills-life-health-tab">
-                                <div class="row">
-                                    <div class="col-12 px-0">
-                                        <!-- Life & Health Variant Tab -->
-                                        <div class="bg-white mt-2">
-                                            <img src="./public/images/png/variant/life-health-variant.png" class="img-fluid" alt="Life & Health Variant">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="pills-life-plus" role="tabpanel" aria-labelledby="pills-life-plus-tab">
-                                <div class="row">
-                                    <div class="col-12 px-0">
-                                        <!-- Life Plus Variant Tab -->
-                                        <div class="bg-white mt-2">
-                                            <img src="./public/images/png/variant/life-plus-variant.png" class="img-fluid" alt="Life Plus Variant">
+                                            <img src="./public/images/png/variant/return-variant.png" class="img-fluid" alt="Step3">
                                         </div>
                                     </div>
                                 </div>
@@ -187,3 +229,17 @@
 
 
 <?php include 'footer.php' ?>
+
+<script>
+    
+    //Next Button Click JS
+    $("#step_1").on("click", function(){
+        $('#more_info_tabs a[href="#pills-personal-details"]').tab('show');
+        //$('#more_info_tabs li:eq(1) a').tab('show');
+    });
+    //Prev Button Click JS
+    $("#step_prev_1").on("click", function(){
+        $('#more_info_tabs a[href="#pills-professional-details"]').tab('show');
+    });
+
+</script>
