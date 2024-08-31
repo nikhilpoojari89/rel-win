@@ -290,8 +290,8 @@ body {
 	}
 }
 
-/**************** Tabs Section Css ****************/
 
+/**************** Tabs Section Css ****************/
 .custom-nav-tabs-section {
 	.custom-nav-tabs-div {
 		position: relative;
@@ -379,6 +379,143 @@ body {
 //     100% { opacity: 1; transform: translateX(0); }
 // }
 
+
+/**************** Product Overview Section Css ****************/
+
+/***** Accordion Section Css *****/
+.overview-sec-2 {
+	&.accordion {
+		.download-card {
+			background: #E3E3E3;
+			border: none;
+			.card-header {
+				background: transparent;
+				border-bottom: none;
+				.download-heading {
+					position: relative;
+					&::after {
+						content: "";
+						width: 250px;
+						height: 3px;
+						position: absolute;
+						background: $black;
+						bottom: -7px;
+						left: 0;
+						right: 0;
+						margin: 0 auto;
+					}
+				}
+				.accicon {
+					position: absolute;
+					font-size: 40px;
+					top: 30px;
+					right: 40px;
+				}
+			}
+			.card-body {
+				padding-bottom: 35px;
+				.download-btn-sec {
+					.btn-download {
+						color: $black;
+						background-color: $white;
+						border-color: $white;
+						border-radius: 50px;
+						font-size: 24px;
+						padding: .5rem 1rem;
+					}
+				}
+			}
+		}
+		.disclaimer-card {
+			background: $white;
+			border: none;
+			.card-header {
+				background: transparent;
+				border-bottom: none;
+				.accicon {
+					position: absolute;
+					font-size: 40px;
+					top: 30px;
+					right: 40px;
+				}
+			}
+		}
+	}
+}
+
+.card-header:not(.collapsed) .rotate-icon {
+	transform: rotate(180deg);
+}
+
+/***** Key Benefits Section Css *****/
+.benefits-sec {
+	border-left: 3px solid $black;
+	&::before, &::after { 
+		content:""; 
+		position: absolute; 
+		bottom: -10px; 
+		left: -7px; 
+		height: 12px; 
+		width: 12px; 
+		background: transparent; 
+		border: 3px solid $black;
+		border-radius: 12px;
+	}
+	&::after {
+		top: -10px; 
+		bottom: auto;
+	}
+	.key-benefits-sec {
+		.key-main-sec {
+			.key-circle {
+				width: 100px;
+				height: 100px;
+				background: $white;
+				border: 4px solid $black;
+				border-radius: 50%;
+				margin: 0 auto 20px auto;
+			}
+			.key-name {
+				letter-spacing: 1px;
+			}
+		}
+	}
+}
+
+.po-heading {
+	position: relative;
+	&::after {
+		content: "";
+		width: 500px;
+		height: 3px;
+		position: absolute;
+		background: $black;
+		bottom: -7px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+}
+
+/**************** Custom Radio Button Css ****************/
+.rdoPayEarly {
+	border: 1px solid #C4D8ED;
+    border-radius: 4px;
+	.active {
+		font-size: 10px;
+		padding: 6px 30px;
+		color: $black;
+		background-color: #F2F8FC;
+		border-color: #4599CD;
+	}
+	.notActive{
+		font-size: 10px;
+		padding: 6px 30px;
+		color: $black;
+		background-color: #fff;
+		border-color: #C4D8ED;
+	}
+} 
 
 /**************** Footer Section Css ****************/
 footer {
