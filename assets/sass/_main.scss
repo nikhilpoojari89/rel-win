@@ -118,6 +118,17 @@ body {
 				padding: 14px 60px;
 				color: $white;
 			}
+			&.btn-step-3 {
+				&.btn-primary {
+					padding: 14px;
+				}
+				&.btn-secondary{
+					padding: 14px 36px;
+				}
+				&.btn-danger {
+					padding: 14px 28px;
+				}
+			}
 		}
 	}
 }
