@@ -33,7 +33,7 @@
                         </div>
                         <div class="tab-content" id="pills-tabContent">
         
-                            <div class="tab-pane fade" id="pills-step1" role="tabpanel" aria-labelledby="pills-step1-tab">
+                            <div class="tab-pane fade show active" id="pills-step1" role="tabpanel" aria-labelledby="pills-step1-tab">
                                 <div class="row">
                                     <div class="col-12 px-0">
                                         <!-- Step1 Tab -->
@@ -181,7 +181,7 @@
                                 </div>
                             </div>
         
-                            <div class="tab-pane fade show active" id="pills-step2" role="tabpanel" aria-labelledby="pills-step2-tab">
+                            <div class="tab-pane fade" id="pills-step2" role="tabpanel" aria-labelledby="pills-step2-tab">
                                 <div class="row">
                                     <div class="col-12 px-0">
                                         <!-- Step2 Tab -->
@@ -267,7 +267,7 @@
                                                                 </div>
                                                             </div>
 
-                                                            <div class="form-group row mx-4">
+                                                            <div class="form-group row mx-4 mb-4">
                                                                 <label for="happy" class="col-auto col-form-label font-22 font-weight-bold p-0">Pay early with limited pay</label>
                                                                 <div class="col-auto align-self-center">
                                                                     <div class="input-group">
@@ -283,143 +283,175 @@
                                                         </div>
 
 
-                                                        <div class="col-xl-5 right-section">
-                                                            <div class="form-card p-4">
+                                                        <div class="col-xl-8 quotes-table">
+                                                            <div class="form-card px-4 py-5">
 
-                                                                <ul class="nav nav-pills list mb-0 custom-nav-tabs py-2 justify-content-between d-none" id="more_info_tabs" role="tablist">
-                                                                    <li class="nav-item mr-2" role="presentation">
-                                                                        <a class="nav-link active rounded-pill font-serif font-weight-bold" id="pills-professional-details-tab" data-toggle="pill" href="#pills-professional-details" role="tab" aria-controls="pills-professional-details" aria-selected="true">Branch Details</a>
-                                                                    </li>
-                                                                    <li class="nav-item mr-2" role="presentation">
-                                                                        <a class="nav-link rounded-pill font-serif font-weight-bold" id="pills-personal-details-tab" data-toggle="pill" href="#pills-personal-details" role="tab" aria-controls="pills-personal-details" aria-selected="false">Personal Details</a>
-                                                                    </li>
-                                                                </ul>
-                                                                <div class="tab-content" id="pills-tabContent">
-                                                
-                                                                    <div class="tab-pane fade show active" id="pills-professional-details" role="tabpanel" aria-labelledby="pills-professional-details-tab">
-                                                
-                                                                        <form>
-                                                                            <div class="text-center text-black mb-5">
-                                                                                <h2 class="font-weight-bold">Buy Online</h2>
-                                                                                <p class="font-26">Please share your details to view quotes</p>
+                                                                <div class="row quotes-main-sec">
+                                                                    <div class="col-md-6 q-left">
+                                                                        <div class="row q-row">
+                                                                            <div class="col-md-7">
+                                                                                <p class="q-left-text font-20 line-height-13 font-weight-bold mb-0">RNL Accidental Death Benefit Rider</p>
                                                                             </div>
-                                                                            <div class="form-row">
-                                                                                <div class="form-group col-12">
-                                                                                    <input type="text" class="form-control" placeholder="Name" id="inputName">
-                                                                                </div>
-                                                                                <div class="col-12">
-                                                                                    <div class="row justify-content-between">
-                                                                                        <div class="form-group col-sm-5 pr-0">
-                                                                                            <input type="text" class="form-control" placeholder="DOB" id="inputDob">
-                                                                                        </div>
-                                                                                        <div class="form-group col-sm-5 pl-0">
-                                                                                            <select id="inputGender" class="form-control">
-                                                                                                <option selected>Gender</option>
-                                                                                                <option>Male</option>
-                                                                                                <option>Female</option>
-                                                                                                <option>Other</option>
-                                                                                            </select>
-                                                                                        </div>
+                                                                            <div class="col-md-5 px-0 align-self-center">
+                                                                                <p class="q-left-box">Rs.1,00,000</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row q-row">
+                                                                            <div class="col-md-7">
+                                                                                <p class="q-left-text font-20 line-height-13 font-weight-bold mb-0">RNL Accidental Death
+                                                                                and Disabilty Rider</p>
+                                                                            </div>
+                                                                            <div class="col-md-5 px-0 align-self-center">
+                                                                                <p class="q-left-box">Rs.1,00,000</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row q-row">
+                                                                            <div class="col-md-7">
+                                                                                <p class="q-left-text font-20 line-height-13 font-weight-bold mb-0">RNL Critical Illness
+                                                                                Plus Rider</p>
+                                                                            </div>
+                                                                            <div class="col-md-5 px-0 align-self-center">
+                                                                                <p class="q-left-box">Rs.1,00,000</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6 q-right pl-5 pr-0">
+                                                                        <div>
+                                                                            <div class="form-group d-flex justify-content-between">
+                                                                                <label for="maturity_amt_dd" class="col-form-label align-self-center font-28 font-weight-bold py-0 pr-2">Maturity Amount at</label>
+                                                                                <div class="align-self-center">
+                                                                                    <div class="select_wrap" id="maturity_amt_dd">
+                                                                                        <ul class="default_option mb-0">
+                                                                                            <li>
+                                                                                                <div class="option">
+                                                                                                    <p>8%</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                        <ul class="select_ul">
+                                                                                            <li>
+                                                                                                <div class="option">
+                                                                                                    <p>8%</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="option">
+                                                                                                    <p>9%</p>
+                                                                                                </div>  
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="option">
+                                                                                                    <p>10%</p>
+                                                                                                </div>  
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="option">
+                                                                                                    <p>11%</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="option">
+                                                                                                    <p>12%</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="option">
+                                                                                                    <p>25%</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="col-12">
-                                                                                    <div class="row justify-content-between">
-                                                                                        <div class="form-group col-sm-5 pr-0">
-                                                                                            <select id="inputsmoking" class="form-control">
-                                                                                                <option selected>Smoker/Non-Smoker</option>
-                                                                                                <option>Smoker</option>
-                                                                                                <option>Non-Smoker</option>
-                                                                                            </select>
-                                                                                        </div>
-                                                                                        <div class="form-group col-sm-5 pl-0">
-                                                                                            <select id="inputself" class="form-control">
-                                                                                                <option selected>Self/Others</option>
-                                                                                                <option>Self</option>
-                                                                                                <option>Others</option>
-                                                                                            </select>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group col-12">
-                                                                                    <input type="text" class="form-control" placeholder="Contact No." id="inputContact">
-                                                                                </div>
-                                                                                <div class="form-group col-12">
-                                                                                    <input type="email" class="form-control" placeholder="Email ID" id="inputEmail">
-                                                                                </div>
                                                                             </div>
-                                                                            <div class="form-group text-center mt-3 mb-0">
-                                                                                <a href="javascript:void(0);" type="submit" id="step_1" class="btn btn-primary letter-spacing-05 font-18 font-16 font-weight-bold">Get Quotes</a>
-                                                                            </div>
-                                                                        </form>
-                                                
+                                                                        </div>
+                                                                        <div>
+                                                                            <p class="final-mat-amt">Rs.80,00,000</p>
+                                                                        </div>
+                                                                        <div class="mat-amt-info-box mr-3 mt-5">
+                                                                            <p class="mb-0 font-26 text-center line-height-13">Actual rate of return of the fund</p>
+                                                                        </div>
                                                                     </div>
-                                                
-                                                                    <div class="tab-pane fade" id="pills-personal-details" role="tabpanel" aria-labelledby="pills-personal-details-tab">
-
-                                                                        <form class="professional-details">
-                                                                            <div class="text-center text-black mb-5">
-                                                                                <h2 class="font-weight-bold">Almost There</h2>
-                                                                                <p class="font-26">Please share your details to view quotes</p>
-                                                                            </div>
-                                                                            <div class="form-row">
-                                                                                <div class="form-group col-12">
-                                                                                    <input type="text" class="form-control" placeholder="Annual Income" id="inputIncome">
-                                                                                </div>
-                                                                                <div class="form-group col-12">
-                                                                                    <select id="inputEdQualification" class="form-control">
-                                                                                        <option selected>Educational Qualification</option>
-                                                                                        <option>SSC</option>
-                                                                                        <option>HSC</option>
-                                                                                        <option>Graduate</option>
-                                                                                        <option>Post-Graduate</option>
-                                                                                        <option>PHD</option>
-                                                                                    </select>
-                                                                                </div>
-                                                                                <div class="form-group col-12">
-                                                                                    <input type="email" class="form-control" placeholder="Occupation" id="inputOccupation">
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="form-group text-center mt-3 mb-0 d-flex justify-content-between">
-                                                                                <a href="javascript:void(0);" type="submit" id="step_prev_1" class="btn btn-secondary letter-spacing-05 font-18 font-16 font-weight-bold">Back</a>
-                                                                                <a href="javascript:void(0);" type="submit" id="btn_get_quotes" class="btn btn-primary letter-spacing-05 font-18 font-16 font-weight-bold">Get Quotes</a>
-                                                                            </div>
-                                                                        </form>
-
-                                                                    </div>
-
                                                                 </div>
 
                                                             </div>
                                                         </div>
 
-                                                        <div class="col-xl-7 left-section align-self-center">
-                                                            <div class="form-card position-relative">
-                                                                <h1 class="text-black text-center font-weight-bold mb-3">RNL Wealth and INsurance Plan (WIN)</h1>
-                                                                <p class="text-black text-center font-weight-bold font-20 font-smooth">A Unit Linked, Non Participating, Individual Life Insurance Plan</p>
+                                                        <div class="col-xl-4 quotes-payment align-self-center">
+                                                            <div class="row justify-content-center">
+                                                                <div class="col-md-9 text-center">
 
-                                                                <div class="row justify-content-center">
-                                                                    <div class="col-lg-9">
-                                                                        <ul class="custom-tab-list text-black font-20 letter-spacing-1 mt-5">
-                                                                            <li>Choose to pay your premium periodically for a limited period</li>
-                                                                            <li>The plan offers you coverage up to the age of 100</li>
-                                                                            <li>You can select any or all of the fund options offered under this plan</li>
-                                                                            <li>You have the choice of systematic investment through the portfolio strategy - Enhanced SMART</li>
-                                                                        </ul>
+                                                                    <div class="form-group">
+                                                                        <label for="pay_till_dd" class="col-form-label align-self-center font-28 font-weight-bold py-0 pr-2 mb-1">Pay Till</label>
+                                                                        <div class="align-self-center">
+                                                                            <div class="select_wrap pay_till_dd" id="pay_till_dd">
+                                                                                <ul class="default_option mb-0">
+                                                                                    <li>
+                                                                                        <div class="option">
+                                                                                            <p>2050 (26 years)</p>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ul>
+                                                                                <ul class="select_ul">
+                                                                                    <li>
+                                                                                        <div class="option">
+                                                                                            <p>2050 (26 years)</p>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="option">
+                                                                                            <p>2054 (30 years)</p>
+                                                                                        </div>  
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
 
+                                                                    <div class="form-group">
+                                                                        <label for="frequency_dd" class="col-form-label align-self-center font-28 font-weight-bold py-0 pr-2 mb-1">Frequency</label>
+                                                                        <div class="align-self-center d-inline-block">
+                                                                            <div class="select_wrap frequency_dd" id="frequency_dd">
+                                                                                <ul class="default_option mb-0">
+                                                                                    <li>
+                                                                                        <div class="option">
+                                                                                            <p>Annually</p>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ul>
+                                                                                <ul class="select_ul">
+                                                                                    <li>
+                                                                                        <div class="option">
+                                                                                            <p>Annually</p>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="option">
+                                                                                            <p>Quaterly</p>
+                                                                                        </div>  
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="option">
+                                                                                            <p>Monthly</p>
+                                                                                        </div>  
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
 
-                                                                <div class="position-absolute right-0 bottom-0">
-                                                                    <img src="./public/images/png/user-img.png" class="img-fluid" alt="User Image" width="120" title="User Image" />
+                                                                    <div>
+                                                                        <a href="javascript:void(0);" class="total-payable-amt-box d-block mt-4 mb-0 font-30 text-center line-height-13 text-white font-weight-bold letter-spacing-1">Pay Rs.1,00,000</a>
+                                                                    </div>
+
+                                                                    <a type="button" class="text-black text-center font-weight-bold my-3 font-20" data-toggle="modal" data-target="#premiumBreakupTbl">
+                                                                        View Premium Breakup
+                                                                    </a>
+
                                                                 </div>
                                                             </div>
                                                         </div>
 
                                                     </div>
-
-
-                                                    
-
 
 
                                                 </div>
@@ -615,6 +647,62 @@
     </div>
 </section>
 
+
+<!-- Premium Breakup Table Modal -->
+<div class="modal fade premiumBreakupTbl" id="premiumBreakupTbl" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="premiumBreakupTblLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title font-weight-bold" id="premiumBreakupTblLabel">Premium Breakup</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body pb-0">
+            <table class="table table-bordered tblPremiumDetails">
+                <thead>
+                    <tr class="tbl-primary">
+                        <th scope="col">Your Benefits</th>
+                        <th scope="col">Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Total Income Benefit in 19 Years (A)</th>
+                        <td>10,33,125</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fixed Loyality Addition (B)</th>
+                        <td>1,96,356</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Base Sum Assured (C)</th>
+                        <td colspan="2">7,85,423</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Maturity Benefit (D=B+C)</th>
+                        <td colspan="2">9,81,779</td>
+                    </tr>
+                    <tr class="tbl-primary">
+                        <th scope="row">Total Benefit Received (A+D)</th>
+                        <td colspan="2" class="font-weight-bold">20,14,904</td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr class="tbl-primary">
+                        <th scope="col">Total Premium Paid</th>
+                        <th scope="col">7,50,000</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="modal-footer justify-content-center border-0 pt-0">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+
 <?php include 'footer.php' ?>
 
 <script>
@@ -670,6 +758,24 @@
     $("#upto_age_dd .select_ul li").click(function(){
         var uptoage = $(this).html();
         $("#upto_age_dd .default_option li").html(uptoage);
+        $(this).parents(".select_wrap").removeClass("active");
+    });
+
+    $("#maturity_amt_dd .select_ul li").click(function(){
+        var maturityamt = $(this).html();
+        $("#maturity_amt_dd .default_option li").html(maturityamt);
+        $(this).parents(".select_wrap").removeClass("active");
+    });
+
+    $("#pay_till_dd .select_ul li").click(function(){
+        var maturityamt = $(this).html();
+        $("#pay_till_dd .default_option li").html(maturityamt);
+        $(this).parents(".select_wrap").removeClass("active");
+    });
+
+    $("#frequency_dd .select_ul li").click(function(){
+        var maturityamt = $(this).html();
+        $("#frequency_dd .default_option li").html(maturityamt);
         $(this).parents(".select_wrap").removeClass("active");
     });
 

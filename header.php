@@ -59,34 +59,34 @@
 </section>
 
 <header>
-    <nav class="navbar navbar-expand-lg py-lg-0" id="mainNav">
-        <div class="container-fluid justify-content-lg-around aos-init aos-animate">
+    <nav class="navbar px-0 pb-0" id="mainNav">
+        <div class="container-fluid px-0 justify-content-between aos-init aos-animate">
 
-            <a class="navbar-brand d-lg-none" href="index.php">
+            <a class="navbar-brand pl-3" href="index.php">
                 <img src="./public/images/png/logo.png" alt="Reliance Logo" width="250" title="Reliance Logo" />
             </a>
-            <!-- <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="ham-icon"><i class="fas fa-bars"></i></span>
-            </button> -->
+            </button>
 
             <div class="navbar-collapse collapse justify-content-start align-self-start py-2 py-lg-0" id="navbarResponsive" style="height: 80px;">
                 <div class="navbar-nav gotham-book justify-content-around justify-content-lg-between w-100 flex-lg-column">
              
-                    <div class="row justify-content-between">
-                        <div class="col-md-12 d-none d-lg-block">
+                    <div class="row justify-content-between mx-0">
+                        <div class="col-lg-8 d-none">
                             <!-- Logo -->
                             <a class="navbar-brand pb-2" href="index.php">
                                 <img src="./public/images/png/logo.png" alt="Reliance Logo" width="300" title="Reliance Logo" />
                             </a>
                         </div>
-                        <!--<div class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end mt-3 mt-md-0">
+                        <div class="col-12 d-flex justify-content-around justify-content-sm-end p-3">
                             <div class="align-self-center">
                                 <a href="javascript:void(0);" class="btn btn-se-outline rounded-pill">Login</a>
                             </div>
                             <div class="align-self-center ml-5 ml-md-2">
                                 <a href="javascript:void(0);" class="btn btn-se rounded-pill">Sign-Up</a>
                             </div>
-                        </div>-->
+                        </div>
                     </div>
                         
                 </div>
