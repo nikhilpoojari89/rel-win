@@ -2,7 +2,7 @@
 <?php include 'header.php' ?>
 
 <!--********************** Tabs Section ***********************-->
-<section class="bg-white custom-top-padding mb-0 pb-5 pb-lg-0">
+<section class="bg-white custom-top-padding mb-0 pb-4">
     <div class="container-fluid">
         <div class="row justify-content-start">
 
@@ -16,13 +16,13 @@
                                 <div class="custom-nav-tabs-wrapper">
         
                                     <ul class="nav nav-pills list mb-0 custom-nav-tabs py-2 justify-content-center" id="plan_booking_tabs" role="tablist">
-                                        <li class="nav-item mr-5" role="presentation">
+                                        <li class="nav-item mr-md-5" role="presentation">
                                             <a class="nav-link active rounded-pill line-height-12 text-center" id="pills-step1-tab" data-toggle="pill" href="#pills-step1" role="tab" aria-controls="pills-step1" aria-selected="true">Step 1</a>
                                         </li>
-                                        <li class="nav-item mx-5" role="presentation">
+                                        <li class="nav-item mx-4 mx-md-5" role="presentation">
                                             <a class="nav-link rounded-pill line-height-12 text-center" id="pills-step2-tab" data-toggle="pill" href="#pills-step2" role="tab" aria-controls="pills-step2" aria-selected="false">Step 2</a>
                                         </li>
-                                        <li class="nav-item ml-5" role="presentation">
+                                        <li class="nav-item ml-md-5" role="presentation">
                                             <a class="nav-link rounded-pill line-height-12 text-center" id="pills-step3-tab" data-toggle="pill" href="#pills-step3" role="tab" aria-controls="pills-step3" aria-selected="false">Step 3</a>
                                         </li>
                                     </ul>
@@ -48,8 +48,8 @@
                                                                 <p class="text-black text-center font-weight-bold font-20 font-smooth">A Unit Linked, Non Participating, Individual Life Insurance Plan</p>
 
                                                                 <div class="row justify-content-center">
-                                                                    <div class="col-lg-9">
-                                                                        <ul class="custom-tab-list text-black font-20 letter-spacing-1 mt-5">
+                                                                    <div class="offset-md-1 offset-lg-3 offset-xl-0 col-xl-9">
+                                                                        <ul class="custom-tab-list text-black font-20 letter-spacing-1 mt-5 pl-lg-0 pl-md-5 px-4">
                                                                             <li>Choose to pay your premium periodically for a limited period</li>
                                                                             <li>The plan offers you coverage up to the age of 100</li>
                                                                             <li>You can select any or all of the fund options offered under this plan</li>
@@ -59,12 +59,17 @@
                                                                 </div>
 
 
-                                                                <div class="position-absolute right-0 bottom-0">
+                                                                <div class="position-absolute right-0 bottom-0 d-none d-xl-block">
                                                                     <img src="./public/images/png/user-img.png" class="img-fluid" alt="User Image" width="120" title="User Image" />
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-xl-5 right-section">
+                                                        <div class="col-md-3 col-lg-2 d-none d-md-block d-xl-none align-self-end">
+                                                            <div>
+                                                                <img src="./public/images/png/user-img.png" class="img-fluid" alt="User Image" width="200" title="User Image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9 col-lg-10 col-xl-5 right-section">
                                                             <div class="form-card p-4">
 
                                                                 <ul class="nav nav-pills list mb-0 custom-nav-tabs py-2 justify-content-between d-none" id="more_info_tabs" role="tablist">
@@ -90,10 +95,10 @@
                                                                                 </div>
                                                                                 <div class="col-12">
                                                                                     <div class="row justify-content-between">
-                                                                                        <div class="form-group col-sm-5 pr-0">
+                                                                                        <div class="form-group col-sm-5 pr-sm-0">
                                                                                             <input type="text" class="form-control" placeholder="DOB" id="inputDob">
                                                                                         </div>
-                                                                                        <div class="form-group col-sm-5 pl-0">
+                                                                                        <div class="form-group col-sm-5 pl-sm-0">
                                                                                             <select id="inputGender" class="form-control">
                                                                                                 <option selected>Gender</option>
                                                                                                 <option>Male</option>
@@ -105,14 +110,14 @@
                                                                                 </div>
                                                                                 <div class="col-12">
                                                                                     <div class="row justify-content-between">
-                                                                                        <div class="form-group col-sm-5 pr-0">
+                                                                                        <div class="form-group col-sm-5 pr-sm-0">
                                                                                             <select id="inputsmoking" class="form-control">
                                                                                                 <option selected>Smoker/Non-Smoker</option>
                                                                                                 <option>Smoker</option>
                                                                                                 <option>Non-Smoker</option>
                                                                                             </select>
                                                                                         </div>
-                                                                                        <div class="form-group col-sm-5 pl-0">
+                                                                                        <div class="form-group col-sm-5 pl-sm-0">
                                                                                             <select id="inputself" class="form-control">
                                                                                                 <option selected>Self/Others</option>
                                                                                                 <option>Self</option>
@@ -160,7 +165,7 @@
                                                                                     <input type="email" class="form-control" placeholder="Occupation" id="inputOccupation">
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="form-group text-center mt-3 mb-0 d-flex justify-content-between">
+                                                                            <div class="form-group text-center mt-3 mb-0 d-sm-flex justify-content-between">
                                                                                 <a href="javascript:void(0);" type="submit" id="step_prev_1" class="btn btn-secondary letter-spacing-05 font-18 font-16 font-weight-bold">Back</a>
                                                                                 <a href="javascript:void(0);" type="submit" id="btn_get_quotes" class="btn btn-primary letter-spacing-05 font-18 font-16 font-weight-bold">Get Quotes</a>
                                                                             </div>
@@ -191,11 +196,14 @@
                                                 <div class="container-fluid px-0">
 
                                                     <div class="row mx-3">
+
                                                         <div class="col-12">
-                                                            <div class="d-flex justify-content-between">
-                                                                <div><h3 class="text-black text-center font-weight-bold mb-0">RNL Wealth and INsurance Plan (WIN)</h3></div>
-                                                                <div>
-                                                                    <div class="form-group row">
+                                                            <div class="row justify-content-center justify-content-lg-between">
+                                                                <div class="col-lg-4 col-xl-auto">
+                                                                    <h3 class="text-black text-center font-weight-bold mb-4 mb-lg-0">RNL Wealth and INsurance Plan (WIN)</h3>
+                                                                </div>
+                                                                <div class="col-lg-4 col-xl-auto align-self-center align-self-xl-start">
+                                                                    <div class="form-group row justify-content-center justify-content-xl-start mb-0">
                                                                         <label for="inputlifecover" class="col-auto col-form-label font-24 font-weight-bold p-0">Life Cover</label>
                                                                         <div class="col-auto">
                                                                             <div class="select_wrap" id="life_cover_dd">
@@ -237,8 +245,8 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div>
-                                                                    <div class="form-group row">
+                                                                <div class="col-lg-4 col-xl-auto align-self-center align-self-xl-start">
+                                                                    <div class="form-group row justify-content-center justify-content-xl-start mb-0">
                                                                         <label for="inputage" class="col-auto col-form-label font-24 font-weight-bold p-0">Upto Age</label>
                                                                         <div class="col-auto">
                                                                             <div class="select_wrap" id="upto_age_dd">
@@ -267,21 +275,20 @@
                                                                 </div>
                                                             </div>
 
-                                                            <div class="form-group row mx-4 mb-4">
-                                                                <label for="happy" class="col-auto col-form-label font-22 font-weight-bold p-0">Pay early with limited pay</label>
+                                                            <div class="form-group row mx-2 mb-5 mb-md-4 m-sm-4 justify-content-center justify-content-lg-start">
+                                                                <label for="payearly" class="col-auto col-form-label font-22 font-weight-bold p-0">Pay early with limited pay</label>
                                                                 <div class="col-auto align-self-center">
                                                                     <div class="input-group">
                                                                         <div id="rdoPayEarly" class="btn-group rdoPayEarly">
-                                                                            <a class="btn btn-sm active" data-toggle="happy" data-title="Y">Yes</a>
-                                                                            <a class="btn btn-sm notActive" data-toggle="happy" data-title="N">No</a>
+                                                                            <a class="btn btn-sm active" data-toggle="payearly" data-title="Y">Yes</a>
+                                                                            <a class="btn btn-sm notActive" data-toggle="payearly" data-title="N">No</a>
                                                                         </div>
-                                                                        <input type="hidden" name="happy" id="happy">
+                                                                        <input type="hidden" name="payearly" id="payearly">
                                                                     </div>
                                                                 </div>
                                                             </div>
 
                                                         </div>
-
 
                                                         <div class="col-xl-8 quotes-table">
                                                             <div class="form-card px-4 py-5">
@@ -290,34 +297,34 @@
                                                                     <div class="col-md-6 q-left">
                                                                         <div class="row q-row">
                                                                             <div class="col-md-7">
-                                                                                <p class="q-left-text font-20 line-height-13 font-weight-bold mb-0">RNL Accidental Death Benefit Rider</p>
+                                                                                <p class="q-left-text font-20 line-height-13 font-weight-bold mb-0 text-center text-md-left">RNL Accidental Death Benefit Rider</p>
                                                                             </div>
-                                                                            <div class="col-md-5 px-0 align-self-center">
-                                                                                <p class="q-left-box">Rs.1,00,000</p>
+                                                                            <div class="col-md-5 px-0 align-self-center text-center text-md-left">
+                                                                                <p class="q-left-box d-inline-block d-md-block mt-2 mt-md-0">Rs.1,00,000</p>
                                                                             </div>
                                                                         </div>
                                                                         <div class="row q-row">
                                                                             <div class="col-md-7">
-                                                                                <p class="q-left-text font-20 line-height-13 font-weight-bold mb-0">RNL Accidental Death
+                                                                                <p class="q-left-text font-20 line-height-13 font-weight-bold mb-0 text-center text-md-left">RNL Accidental Death
                                                                                 and Disabilty Rider</p>
                                                                             </div>
-                                                                            <div class="col-md-5 px-0 align-self-center">
-                                                                                <p class="q-left-box">Rs.1,00,000</p>
+                                                                            <div class="col-md-5 px-0 align-self-center text-center text-md-left">
+                                                                                <p class="q-left-box d-inline-block d-md-block mt-2 mt-md-0">Rs.1,00,000</p>
                                                                             </div>
                                                                         </div>
                                                                         <div class="row q-row">
                                                                             <div class="col-md-7">
-                                                                                <p class="q-left-text font-20 line-height-13 font-weight-bold mb-0">RNL Critical Illness
+                                                                                <p class="q-left-text font-20 line-height-13 font-weight-bold mb-0 text-center text-md-left">RNL Critical Illness
                                                                                 Plus Rider</p>
                                                                             </div>
-                                                                            <div class="col-md-5 px-0 align-self-center">
-                                                                                <p class="q-left-box">Rs.1,00,000</p>
+                                                                            <div class="col-md-5 px-0 align-self-center text-center text-md-left">
+                                                                                <p class="q-left-box d-inline-block d-md-block mt-2 mt-md-0">Rs.1,00,000</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-md-6 q-right pl-5 pr-0">
+                                                                    <div class="col-md-6 q-right pl-md-5 pr-0">
                                                                         <div>
-                                                                            <div class="form-group d-flex justify-content-between">
+                                                                            <div class="form-group d-flex justify-content-center justify-content-md-between mt-4 mt-md-0">
                                                                                 <label for="maturity_amt_dd" class="col-form-label align-self-center font-28 font-weight-bold py-0 pr-2">Maturity Amount at</label>
                                                                                 <div class="align-self-center">
                                                                                     <div class="select_wrap" id="maturity_amt_dd">
@@ -365,7 +372,7 @@
                                                                             </div>
                                                                         </div>
                                                                         <div>
-                                                                            <p class="final-mat-amt">Rs.80,00,000</p>
+                                                                            <p class="final-mat-amt mt-lg-0 mt-md-5 mt-4">Rs.80,00,000</p>
                                                                         </div>
                                                                         <div class="mat-amt-info-box mr-3 mt-5">
                                                                             <p class="mb-0 font-26 text-center line-height-13">Actual rate of return of the fund</p>
@@ -380,9 +387,9 @@
                                                             <div class="row justify-content-center">
                                                                 <div class="col-md-9 text-center">
 
-                                                                    <div class="form-group">
+                                                                    <div class="form-group mt-5 mt-md-4 mt-xl-0">
                                                                         <label for="pay_till_dd" class="col-form-label align-self-center font-28 font-weight-bold py-0 pr-2 mb-1">Pay Till</label>
-                                                                        <div class="align-self-center">
+                                                                        <div class="align-self-center d-inline-block">
                                                                             <div class="select_wrap pay_till_dd" id="pay_till_dd">
                                                                                 <ul class="default_option mb-0">
                                                                                     <li>
@@ -440,10 +447,10 @@
                                                                     </div>
 
                                                                     <div>
-                                                                        <a href="javascript:void(0);" class="total-payable-amt-box d-block mt-4 mb-0 font-30 text-center line-height-13 text-white font-weight-bold letter-spacing-1">Pay Rs.1,00,000</a>
+                                                                        <a href="javascript:void(0);" class="total-payable-amt-box d-inline-block mt-3 mt-sm-1 mt-xl-4 mb-0 font-30 text-center line-height-13 text-white font-weight-bold letter-spacing-1">Pay Rs.1,00,000</a>
                                                                     </div>
 
-                                                                    <a type="button" class="text-black text-center font-weight-bold my-3 font-20" data-toggle="modal" data-target="#premiumBreakupTbl">
+                                                                    <a type="button" id="viewPremium" class="text-black text-center font-weight-bold my-3 font-20" data-toggle="modal" data-target="#premiumBreakupTbl">
                                                                         View Premium Breakup
                                                                     </a>
 
@@ -477,8 +484,8 @@
                                                                 <p class="text-black text-center font-weight-bold font-20 font-smooth">A Unit Linked, Non Participating, Individual Life Insurance Plan</p>
 
                                                                 <div class="row justify-content-center">
-                                                                    <div class="col-lg-9">
-                                                                        <ul class="custom-tab-list text-black font-20 letter-spacing-1 mt-5">
+                                                                    <div class="offset-md-1 offset-lg-3 offset-xl-0 col-xl-9">
+                                                                        <ul class="custom-tab-list text-black font-20 letter-spacing-1 mt-5 pl-lg-0 pl-md-5 px-4">
                                                                             <li>Choose to pay your premium periodically for a limited period</li>
                                                                             <li>The plan offers you coverage up to the age of 100</li>
                                                                             <li>You can select any or all of the fund options offered under this plan</li>
@@ -488,12 +495,17 @@
                                                                 </div>
 
 
-                                                                <div class="position-absolute right-0 bottom-0">
+                                                                <div class="position-absolute right-0 bottom-0 d-none d-xl-block">
                                                                     <img src="./public/images/png/user-img.png" class="img-fluid" alt="User Image" width="120" title="User Image" />
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-xl-5 right-section">
+                                                        <div class="col-md-3 col-lg-2 d-none d-md-block d-xl-none align-self-end">
+                                                            <div>
+                                                                <img src="./public/images/png/user-img.png" class="img-fluid" alt="User Image" width="200" title="User Image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9 col-lg-10 col-xl-5 right-section">
                                                             <div class="form-card p-4">
 
                                                                 <form>
@@ -507,10 +519,10 @@
                                                                         </div>
                                                                         <div class="col-12">
                                                                             <div class="row justify-content-between">
-                                                                                <div class="form-group col-sm-5 pr-0">
+                                                                                <div class="form-group col-sm-5 pr-sm-0">
                                                                                     <input type="text" class="form-control" placeholder="DOB" id="inputDob">
                                                                                 </div>
-                                                                                <div class="form-group col-sm-5 pl-0">
+                                                                                <div class="form-group col-sm-5 pl-sm-0">
                                                                                     <select id="inputGender" class="form-control">
                                                                                         <option selected>Gender</option>
                                                                                         <option>Male</option>
@@ -522,14 +534,14 @@
                                                                         </div>
                                                                         <div class="col-12">
                                                                             <div class="row justify-content-between">
-                                                                                <div class="form-group col-sm-5 pr-0">
+                                                                                <div class="form-group col-sm-5 pr-sm-0">
                                                                                     <select id="inputsmoking" class="form-control">
                                                                                         <option selected>Smoker/Non-Smoker</option>
                                                                                         <option>Smoker</option>
                                                                                         <option>Non-Smoker</option>
                                                                                     </select>
                                                                                 </div>
-                                                                                <div class="form-group col-sm-5 pl-0">
+                                                                                <div class="form-group col-sm-5 pl-sm-0">
                                                                                     <select id="inputself" class="form-control">
                                                                                         <option selected>Self/Others</option>
                                                                                         <option>Self</option>
@@ -545,7 +557,7 @@
                                                                             <input type="email" class="form-control" placeholder="Email ID" id="inputEmail">
                                                                         </div>
                                                                     </div>
-                                                                    <div class="form-group text-center mt-3 mb-0 d-flex justify-content-between">
+                                                                    <div class="form-group text-center mt-3 mb-0 d-sm-flex justify-content-between">
                                                                         <a href="javascript:void(0);" type="submit" id="main_step_1" class="btn btn-secondary btn-step-3 letter-spacing-05 font-18 font-16 font-weight-bold">Back</a>
                                                                         <a href="javascript:void(0);" type="submit" id="main_step_2" class="btn btn-danger btn-step-3 letter-spacing-05 font-18 font-16 font-weight-bold">Modify</a>
                                                                         <a href="javascript:void(0);" type="submit" id="btnContinue" class="btn btn-primary btn-step-3 letter-spacing-05 font-18 font-16 font-weight-bold">Continue</a>
@@ -572,14 +584,14 @@
             <div class="col-12 px-0" id="product_overview_page">
                 <div class="form-card bg-white">
 
-                    <div class="overview-sec-1 px-5 pt-4 pb-5">
+                    <div class="overview-sec-1 px-4 px-lg-5 pt-4 pb-lg-5 pb-4">
                         <h1 class="po-heading text-black text-center font-weight-bold mb-5 letter-spacing-1">Product Overview</h1>
                         <div class="row">
                             <div class="col-md-6 font-20 font-weight-bold text-justify line-height-15 align-self-center">
                                 <p>WIN Product from Reliance Nippon Life Insurance, you can plan your investments in such a way that you get to create a corpus for your family to rely on in the future.</p>
                                 <p class="mb-0">Additionally, enjoy access to comprehensive wellness with RNLIC Vitality wellness program that helps you to understand, track and improve your health while also rewarding you with premium discounts!</p>
                             </div>
-                            <div class="col-md-6 text-center benefits-sec">
+                            <div class="col-md-6 text-center benefits-sec pt-lg-0 pt-md-5 pt-4 mt-4 mt-md-0 px-0 px-sm-3">
                                 <h3 class="mb-4">Key Benefits</h3>
                                 <div class="key-benefits-sec d-flex justify-content-around mb-5">
                                     <div class="key-main-sec">
@@ -608,18 +620,18 @@
                                 <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
                             </div>
                             <div id="collapseOne" class="collapse show">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between download-btn-sec">
-                                        <div>
+                                <div class="card-body px-0 px-md-3">
+                                    <div class="row mx-0 justify-content-center justify-content-xl-between download-btn-sec">
+                                        <div class="col-12 col-md-6 col-xl-auto text-center">
                                             <a href="javascript:void(0);" type="submit" id="main_step_1" class="btn btn-download letter-spacing-05 font-18 font-16 font-weight-bold"><img src="./public/images/png/download-img.png" class="img-fluid" alt="Download Image" width="70" title="Download Image" /> Product Brochure</a>
                                         </div>
-                                        <div>
+                                        <div class="col-12 col-md-6 col-xl-auto text-center mt-4 mt-md-0">
                                             <a href="javascript:void(0);" type="submit" id="main_step_1" class="btn btn-download letter-spacing-05 font-18 font-16 font-weight-bold"><img src="./public/images/png/download-img.png" class="img-fluid" alt="Download Image" width="70" title="Download Image" /> Policy Document</a>
                                         </div>
-                                        <div>
+                                        <div class="col-12 col-md-6 col-xl-auto text-center mt-4 mt-xl-0 px-0 px-lg-3">
                                             <a href="javascript:void(0);" type="submit" id="main_step_1" class="btn btn-download letter-spacing-05 font-18 font-16 font-weight-bold"><img src="./public/images/png/download-img.png" class="img-fluid" alt="Download Image" width="70" title="Download Image" /> Premium Rate Table</a>
                                         </div>
-                                        <div>
+                                        <div class="col-12 col-md-6 col-xl-auto text-center mt-4 mt-xl-0">
                                             <a href="javascript:void(0);" type="submit" id="main_step_1" class="btn btn-download letter-spacing-05 font-18 font-16 font-weight-bold"><img src="./public/images/png/download-img.png" class="img-fluid" alt="Download Image" width="70" title="Download Image" /> Presentation</a>
                                         </div>
                                     </div>
@@ -649,7 +661,7 @@
 
 
 <!-- Premium Breakup Table Modal -->
-<div class="modal fade premiumBreakupTbl" id="premiumBreakupTbl" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="premiumBreakupTblLabel" aria-hidden="true">
+<div class="modal fade premiumBreakupTbl" id="premiumBreakupTbl" data-keyboard="false" tabindex="-1" aria-labelledby="premiumBreakupTblLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
         <div class="modal-header">
@@ -704,89 +716,3 @@
 </div>
 
 <?php include 'footer.php' ?>
-
-<script>
-    
-    //Next Button Click JS
-    $("#step_1").on("click", function(){
-        $('#more_info_tabs a[href="#pills-personal-details"]').tab('show');
-        //$('#more_info_tabs li:eq(1) a').tab('show');
-    });
-    //Prev Button Click JS
-    $("#step_prev_1").on("click", function(){
-        $('#more_info_tabs a[href="#pills-professional-details"]').tab('show');
-    });
-
-    //Next Button Click JS
-    $("#btn_get_quotes").on("click", function(){
-        $('#plan_booking_tabs a[href="#pills-step2"]').tab('show');
-    });
-
-    //Prev Button Click For Step3 JS
-    $("#main_step_1").on("click", function(){
-        $('#plan_booking_tabs a[href="#pills-step1"]').tab('show');
-    });
-    $("#main_step_2").on("click", function(){
-        $('#plan_booking_tabs a[href="#pills-step2"]').tab('show');
-    });
-
-    $("#btnContinue").on("click", function(){
-        $('#product_booking_page').hide();
-        $('#product_overview_page').show();
-    });
-
-    $('#product_overview_page').hide();
-    $('#product_booking_page').show();
-    $("#step_back").on("click", function(){
-        // window.location.reload();
-        $('#product_booking_page').show();
-        $('#product_overview_page').hide();
-        $('#plan_booking_tabs a[href="#pills-step3"]').tab('show');
-    });
-
-    //Custom Select JS
-    $(".default_option").click(function(){
-        $(this).parent().toggleClass("active");
-    });
-
-    $("#life_cover_dd .select_ul li").click(function(){
-        var lifecover = $(this).html();
-        $("#life_cover_dd .default_option li").html(lifecover);
-        $(this).parents(".select_wrap").removeClass("active");
-    });
-
-    $("#upto_age_dd .select_ul li").click(function(){
-        var uptoage = $(this).html();
-        $("#upto_age_dd .default_option li").html(uptoage);
-        $(this).parents(".select_wrap").removeClass("active");
-    });
-
-    $("#maturity_amt_dd .select_ul li").click(function(){
-        var maturityamt = $(this).html();
-        $("#maturity_amt_dd .default_option li").html(maturityamt);
-        $(this).parents(".select_wrap").removeClass("active");
-    });
-
-    $("#pay_till_dd .select_ul li").click(function(){
-        var maturityamt = $(this).html();
-        $("#pay_till_dd .default_option li").html(maturityamt);
-        $(this).parents(".select_wrap").removeClass("active");
-    });
-
-    $("#frequency_dd .select_ul li").click(function(){
-        var maturityamt = $(this).html();
-        $("#frequency_dd .default_option li").html(maturityamt);
-        $(this).parents(".select_wrap").removeClass("active");
-    });
-
-
-    $('#rdoPayEarly a').on('click', function(){
-        var sel = $(this).data('title');
-        var tog = $(this).data('toggle');
-        $('#'+tog).prop('value', sel);
-        
-        $('a[data-toggle="'+tog+'"]').not('[data-title="'+sel+'"]').removeClass('active').addClass('notActive');
-        $('a[data-toggle="'+tog+'"][data-title="'+sel+'"]').removeClass('notActive').addClass('active');
-    })
-
-</script>

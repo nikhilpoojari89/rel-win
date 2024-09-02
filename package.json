@@ -1,7 +1,7 @@
 {
-  "name": "rel-lss",
+  "name": "rel-win",
   "version": "1.0.0",
-  "description": "rel-lss",
+  "description": "rel-win",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikhilpoojari89/rel-lss"
+    "url": "git+https://github.com/nikhilpoojari89/rel-win"
   },
-  "author": "rel-lss",
-  "license": "rel-lss",
+  "author": "rel-win",
+  "license": "rel-win",
   "devDependencies": {
     "bootstrap": "^4.5.3",
     "browser-sync": "^2.26.13",
@@ -27,7 +27,7 @@
     "popper.js": "^1.16.1"
   },
   "bugs": {
-    "url": "https://github.com/nikhilpoojari89/rel-lss/issues"
+    "url": "https://github.com/nikhilpoojari89/rel-win/issues"
   },
-  "homepage": "https://github.com/nikhilpoojari89/rel-lss#readme"
+  "homepage": "https://github.com/nikhilpoojari89/rel-win#readme"
 }
